@@ -1,9 +1,9 @@
 .Weather {
-    font-family: arial, sans-serif;
-    border: 1px solid #dadde1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid #138496;
     padding: 16px;
     border-radius: 4px;
-    color: rgb(135, 135, 135);
+    color: rgb(33, 33, 33);
 }
 
 .Weather h1 {
@@ -23,6 +23,7 @@
     font-weight: 100;
     line-height: 19px;
     list-style: none;
+    padding: 5px;
 }
 
 .Weather img {
