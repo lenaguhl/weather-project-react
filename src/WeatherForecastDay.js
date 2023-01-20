@@ -14,10 +14,6 @@ export default function WeatherForecastDay(props) {
         <div className="WeatherForecast-day">{day()}
         </div>
           <div>
-          <img
-             src={props.data.icon}
-             alt={props.data.description} 
-             />
           </div>
           <div className="WeatherForecast-temperatures">
             <span className="WeatherForecast-temperature-max">
