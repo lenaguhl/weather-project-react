@@ -13,8 +13,6 @@ export default function WeatherForecastDay(props) {
       <div>
         <div className="WeatherForecast-day">{day()}
         </div>
-          <div>
-          </div>
           <div className="WeatherForecast-temperatures">
             <span className="WeatherForecast-temperature-max">
               {Math.round(props.data.temperature.maximum)}
