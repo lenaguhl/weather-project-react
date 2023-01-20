@@ -13,6 +13,12 @@ export default function WeatherForecastDay(props) {
       <div>
         <div className="WeatherForecast-day">{day()}
         </div>
+        <div>
+          <img 
+          src={props.data.condition.icon_url}
+          alt={props.data.condition.icon}>
+          </img>
+        </div>
         <div className="WeatherForecast-temperatures">
           <span className="WeatherForecast-temperature-max">
           {Math.round(props.data.temperature.maximum)}
